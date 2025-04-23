@@ -1,4 +1,4 @@
 # side-project
 Side-Project作品集
 
-📁 [前往 aaa 分支](https://github.com/akilchen/side-project/python)
+📁 [python作品集](https://github.com/akilchen/side-project/blob/Python/))
