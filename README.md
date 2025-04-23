@@ -18,9 +18,8 @@
 
 - 資料集名稱：Bank Customer Churn Dataset
 - 資料來源：Kaggle(https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset)
-- 抽樣方法:簡單隨機抽樣
-- 抽樣筆數:10,000筆ABC銀行客戶
-- 抽取欄位包含:
+- 資料筆數:10,000筆ABC銀行客戶
+- 資料欄位:
   customer_id(客戶ID)<br>
   credit_score(信用分數):滿分為1000分<br>
   country(國家)<br>
@@ -38,7 +37,7 @@
 ## 🛠️ 使用平台與分析工具
 
 - 開發平台 : Google Colab
-- 資料處理 : Pandas, NumPy
+- 資料處理與分析 : Pandas, NumPy ,statsmodels.api
 - 資料視覺化 : Matplotlib
 - 機器學習 : Scikit-learn, XGBoost
 - 模型部署 : Pickle
@@ -47,7 +46,7 @@
 
 ## 🔍 分析流程
 
-0.讀取Kaggle資料集
+0. 讀取Kaggle資料集
 1. 認識資料:欄位特徵、是否有區失值
 2. 資料清理:數值資料裝箱
 3. 資料分析:敘述性統計與交叉分析
@@ -76,7 +75,6 @@
 
 ## 📌 結論與應用建議
 
-(待寫)
 - 隨機森林表現最佳，適合部署於實務應用
 - 年齡、年資與是否活躍會員是影響流失的重要因子
 - 可結合預測結果進行「高風險客戶」分群與定向關懷
