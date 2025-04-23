@@ -72,7 +72,7 @@
 
 
 📈 五個模型的 ROC 曲線圖如下：  
-![ROC Curve Comparison](ROC_comparison.png.png)
+![ROC Curve Comparison](ROC_compare.png)
 
 ---
 
