@@ -72,9 +72,9 @@
 📈 模型的ROC曲線(Receiver Operating Characteristic Curve)
 ROC曲線的目的是呈現不同閾值(threshold，機率的門檻值)會對決策指標(TPR.FPR)的影響。
  - False Positive Rate:模型預測為非流失，測試集真實狀況為流失，決策錯誤比率。公式= 決策錯誤筆數 / 測試集總筆數。
- - True Positive Rate:模型預測為流失，測試集真實狀況為流失，決策正確比率。公式= 決策正確筆數 / 測試集總筆數。
+ - True Positive Rate:模型預測為流失，測試集真實狀況為流失，決策正確比率。公式= 決策正確筆數 / 測試集總筆數。<br>
 本專案的ROC圖如下：  
-![ROC Curve Comparison](ROC_compare.png)
+![ROC Curve Comparison](ROC_compare.png)<br>
 我們以AUC值(Area Under the Curve，意指曲線以下形成的面積)同時評估多個模型的整體表現，根據上圖可以發現，Random Forest與Naive Bayes AUC值最高(同為0.83)，但是Random Forest的準確率(0.86)>Naive Bayes(0.83),因此**選擇Random Forest為最適模型**。
 
 ---
