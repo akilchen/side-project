@@ -66,7 +66,7 @@
   - False Positive Rate:模型預測為非流失，測試集真實狀況為流失，決策錯誤比率。公式= 決策錯誤筆數 / 測試集總筆數。
   - True Positive Rate:模型預測為流失，測試集真實狀況為流失，決策正確比率。公式= 決策正確筆數 / 測試集總筆數。<br>
 - 本專案的ROC圖如下：  
-  ![ROC Curve Comparison](ROC_compare.png)<br>
+  ![ROC Curve Comparison](ROC_comparison.png)<br>
 - 各指標整理如下表:<br>
   | 模型名稱             | Accuracy  | precision  | recall    | f1-score | Cross-Validation | AUC      | 
   | ------------------  | --------  | ---------- | --------- | --------- | ----------------| -------- | 
