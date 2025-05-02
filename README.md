@@ -40,7 +40,7 @@
 
 - 正規化後的資料庫實體關聯圖(ER-Model)
     
-    (ER_Model.png)
+   ![ER_Model](ER_Model.png)<br>
     
 
 [](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
