@@ -17,7 +17,7 @@
         - 依信用分數將churn risk分風險等級貼標，了解各風險等級客戶量。
     
 
-### 2️⃣資料來源**
+### 2️⃣資料來源
 
 - 資料集名稱：Bank Customer Churn Dataset
 - 資料來源：Kaggle(https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset)
