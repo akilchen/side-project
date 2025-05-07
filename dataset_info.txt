@@ -1,1 +1,31 @@
-dataset_info.txt
+🗃️ 資料來源與目的
+    本資料集原始來自 Kaggle「Bank Customer Churn Dataset」，經過資料清理與正規化處理後，拆分為多個關聯式資料表，方便進行 SQL 分析與資料查詢操作。本專案目的是建立銀行客戶流失預測的資料庫基礎結構，以利進一步分析與報表製作。
+
+🧩 正規化後資料表一覽
+    資料表名稱	說明
+    customers	儲存客戶基本資料（ID、姓名、性別、年齡等）
+    countries	儲存地區資訊（地區 ID、國家名稱）
+    products	客戶所擁有的產品數量（與客戶 ID 關聯）
+    accounts	帳戶相關資訊（如信用卡、有無活躍狀態、餘額等）
+    salaries	客戶薪資資訊
+    churn_status	客戶是否流失（0 保留、1 流失）作為目標變數
+
+☝️ 這些表格名稱你可以依照你實際建立的 SQL 表格改寫
+
+🔗 關聯關係（可補 ER 圖連結或文字說明）
+例如：
+
+一個 customer 對應一筆 account 資料（1 對 1）
+
+一個 geography_id 可被多個客戶共用（1 對多）
+
+products、salaries 均透過 customer_id 關聯回 customers
+
+churn_status 儲存於主表（或獨立一表）並以 customer_id 關聯
+
+📝 額外說明
+原始資料中的欄位如 RowNumber, CustomerId, Surname 在正規化後被排除或重新命名
+
+所有欄位皆已標準化命名（小寫、底線分隔）以符合 SQL 命名慣例
+
+資料表皆已設置主鍵與適當外鍵約束
