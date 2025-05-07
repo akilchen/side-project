@@ -25,7 +25,7 @@
 
 [](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)
 
-- table與欄位關聯說明：[點這裡開啟](dataset_info.txt)
+- table與欄位關聯說明：[點這裡開啟](dataset_info.md)
 
 ### 3️⃣資料正規化與ER Model
 
